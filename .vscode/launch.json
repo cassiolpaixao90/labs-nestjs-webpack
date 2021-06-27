@@ -4,7 +4,7 @@
     {
       "type": "node",
       "request": "attach",
-      "name": "Debug: app-name",
+      "name": "docker:app",
       "remoteRoot": "/usr/src/app",
       "localRoot": "${workspaceFolder}",
       "protocol": "inspector",

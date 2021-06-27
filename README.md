@@ -32,17 +32,25 @@
 $ npm install
 ```
 
-## Running the app
+## Running the app local
 
 ```bash
-# development
-$ npm run start
 
-# watch mode
+# development always in watch mode with support debugger
 $ npm run start:dev
 
 # production mode
+$ npm run build
 $ npm run start:prod
+```
+
+## Running the app docker
+
+```bash
+
+# development always in watch mode with support debugger
+$ docker-compose  up -d --build
+
 ```
 
 ## Test
