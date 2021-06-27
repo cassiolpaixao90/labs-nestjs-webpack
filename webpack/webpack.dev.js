@@ -23,7 +23,9 @@ module.exports = () => ({
   externals: [nodeExternals()],
   plugins: [
     ...plugins,
-    new NodemonPlugin()
+    new NodemonPlugin({
+      nodeArgs: ['--inspect=0.0.0.0:9229'],
+    })
   ],
   module: {
     rules: [
